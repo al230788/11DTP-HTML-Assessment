@@ -43,14 +43,18 @@ nav, ul, a{
     font-size: 40px;
 }
 
-#main_content{
+#main-content{
+    padding-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 #somethinglikeablurb{
-    width: 550px;
+    font-size: x-large;
+    width: 900px;
     background-color: rgb(58, 58, 58);
     border-radius: 5px;
     color: white;
