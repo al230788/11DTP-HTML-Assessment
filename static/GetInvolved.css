@@ -2,7 +2,9 @@ body, html{
     height: 100%;
 }
 
-nav, ul, a{
+nav ul a,
+nav ul,
+nav{
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -18,19 +20,13 @@ nav, ul, a{
 }
 
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("spacemarineheroimage.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("guardvsnids.jpg");
     height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-
-/* #main_content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
 
 .hero-text{
     text-align: center;
@@ -43,45 +39,20 @@ nav, ul, a{
     font-size: 40px;
 }
 
-#main-content{
-    padding-top: 10px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-}
-
-#somethinglikeablurb{
-    font-size: x-large;
-    width: 900px;
-    background-color: rgb(58, 58, 58);
-    border-radius: 5px;
-    color: white;
-}
-
-#video{
-    width: 1000px;
+#form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 5px;
 }
 
-footer{
+footer,
+footer ul,
+footer ul a{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-left: 5px;
     text-decoration: none;
     list-style-type: none;
     background-color: rgb(58, 58, 58);
+    color: white;
 }
-
-/* header, footer {
-    color: azure;
-    background-color: darkcyan;
-    height: 175;
-    display: flex;
-    align-items: center;
-    width: 1700px;
-    margin: auto;
-} */

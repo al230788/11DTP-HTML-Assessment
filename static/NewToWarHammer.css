@@ -2,7 +2,9 @@ body, html{
     height: 100%;
 }
 
-nav, ul, a{
+nav ul a,
+nav ul,
+nav{
     display: flex;
     flex-direction: row;
     text-decoration: none;
@@ -18,7 +20,7 @@ nav, ul, a{
 }
 
 .hero-image{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("guardvsnids.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("space-marines-2.avif");
     height: 700px;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,13 +39,43 @@ nav, ul, a{
     font-size: 40px;
 }
 
-
-
-footer{
+#main-content{
+    display: flex;
+    flex-direction: column;
+}
+#images{
     display: flex;
     flex-direction: row;
+}
+#Games{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+}
+#Books{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+}
+#Minifigures{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+}
+#tabletop{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer,
+footer ul,
+footer ul a{
+    display: flex;
+    flex-direction: column;
     padding-left: 5px;
     text-decoration: none;
     list-style-type: none;
     background-color: rgb(58, 58, 58);
+    color: white;
 }
